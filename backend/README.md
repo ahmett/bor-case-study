@@ -19,6 +19,8 @@ Projeyi ayaga kaldirmak ve fake data ile doldurmak icin, sirasiyla:
 ./vendor/bin/sail up -d
 ```
 
+MySql'in ayaga kalkmasi birkac saniye surebiliyor (bilgisayara gore degisir), migrate calismazsa tekrar tekrar deneyin:
+
 ```
 ./vendor/bin/sail artisan migrate
 ```
