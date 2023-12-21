@@ -25,7 +25,7 @@ class VehicleFactory extends Factory
             'model' => $vehicle['model'],
             'year' => rand(2010, 2023),
             'color' => Arr::random(['Gri', 'Beyaz', 'Siyah']),
-            'engine' => Arr::random(['Dizel', 'Benzin']),
+            'engine' => Arr::random(['1.3', '1.6', '1.8', '2.0', '2.5']),
             'fuel' => Arr::random(['Dizel', 'Benzin']),
             'transmission' => Arr::random(['Manuel', 'Otomatik']),
         ];
